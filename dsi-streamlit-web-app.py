@@ -44,4 +44,4 @@ if st.button("Submit For Prediction"):
     pred_proba = model.predict_proba(new_data)[0][1]
 
     # output prediction
-    st.subheader(f"Based on these customer's attributes, our model predicts a purchase probability of {pred_proba:.0%}")
+    st.subheader(f"Based on the customer's attributes, our model predicts a purchase probability of {pred_proba:.0%}")
